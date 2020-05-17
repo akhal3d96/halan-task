@@ -68,3 +68,10 @@ mutation AddNewContest($input: ContestInput!) {
 
 ```
 
+## TODO
+
+1. Postgres and Mongo deployments to statefulsets
+2. Kubernetes Jobs for database seeding
+3. Ingres
+4. Monitoring using Grafana and Prometheus
+5. Improve logging by using ELK stack
