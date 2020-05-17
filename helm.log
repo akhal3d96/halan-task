@@ -1,0 +1,22 @@
+WARN Volume mount on the host "/home/nemoload/Dev/halan-task" isn't supported - ignoring path on the host 
+WARN Volume mount on the host "/home/nemoload/Dev/halan-task/nginx/nginx.conf" isn't supported - ignoring path on the host 
+WARN Volume mount on the host "/home/nemoload/Dev/halan-task/nginx/server.crt" isn't supported - ignoring path on the host 
+WARN Volume mount on the host "/home/nemoload/Dev/halan-task/nginx/server.key" isn't supported - ignoring path on the host 
+WARN Volume mount on the host "/home/nemoload/Dev/halan-task/database/test-pg-data.sql" isn't supported - ignoring path on the host 
+INFO Kubernetes file "helm/templates/mongo-service.yaml" created 
+INFO Kubernetes file "helm/templates/nginx-service.yaml" created 
+INFO Kubernetes file "helm/templates/node-service.yaml" created 
+INFO Kubernetes file "helm/templates/pg-service.yaml" created 
+INFO Kubernetes file "helm/templates/mongo-deployment.yaml" created 
+INFO Kubernetes file "helm/templates/node-modules-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/mongo-claim1-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/nginx-deployment.yaml" created 
+INFO Kubernetes file "helm/templates/nginx-claim0-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/nginx-claim1-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/nginx-claim2-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/node-pod.yaml" created 
+INFO Kubernetes file "helm/templates/node-modules-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/pg-deployment.yaml" created 
+INFO Kubernetes file "helm/templates/pg-data-persistentvolumeclaim.yaml" created 
+INFO Kubernetes file "helm/templates/pg-claim1-persistentvolumeclaim.yaml" created 
+INFO chart created in "helm/"
