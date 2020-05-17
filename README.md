@@ -72,6 +72,8 @@ mutation AddNewContest($input: ContestInput!) {
 
 1. Postgres and Mongo deployments to statefulsets
 2. Kubernetes Jobs for database seeding
-3. Ingres
+3. Use Ingress controllers and defining Ingress routes and rules
 4. Monitoring using Grafana and Prometheus
 5. Improve logging by using ELK stack
+6. Managing secrets using Vault
+7. Use one source of truth for YAML manifests using Flux GitOps
