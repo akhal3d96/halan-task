@@ -3,7 +3,7 @@ const assert = require('assert');
 const { nodeEnv } = require('../lib/util');
 const mongoConfig = require('../config/mongo')[nodeEnv];
 
-MongoClient.connect(mongoConfig.url, (err, db) => {
+MongoClient.connect('mongodb://localhost:27017/contests', (err, db) => {
   assert.equal(null, err);
 
   db.collection('users').insertMany([
